@@ -1,21 +1,73 @@
+
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Site Blog</title>
+  <link href="./style.css" rel="stylesheet">
 </head>
-
 <body>
-  Hello world
+  <!-- Navbar -->
+ <nav class="navbar">
+  <a class="navbar-brand" href="./index.html">
+    <span class="icon-paw">🐾</span>
+    <span>Pet Lovers</span>
+  </a>
+  <ul class="navbar-nav">
+    <li><a class="nav-link" href="./index.html">Home</a></li>
+    <li><a class="nav-link" href="./views/About.html">About Us</a></li>
+    <li><a class="nav-link" href="./views/Contact.html">Contact Us</a></li>
+    <li><a class="nav-link" href="./index.html">Posts</a></li>
+  </ul>
+ </nav>
 
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+<!-- Main -->
+<div class="hero">
+
+  <div>
+    <div class="hero-badge">
+      <span class="icon-drop">🐾</span>
+      <span>Pet Lovers Blog</span>
+    </div>
+    <h1 class="hero-title">Welcome to Pet Lovers</h1>
+    <p class="hero-text">
+      A space dedicated to dog and cat lovers. Here you will find practical tips, fun facts, and everything you need to better care for your pets.
+    </p>
+
+    <div class="feature">
+      <div>✓</div>
+      <div><strong>Care Tips:</strong> Nutrition, hygiene, and healthy routines for dogs and cats.</div>
+    </div>
+    <div class="feature">
+      <div>✓</div>
+      <div><strong>Fun Facts:</strong> Discover surprising things about your pets’ behavior and history.</div>
+    </div>
+    <div class="feature">
+      <div>🐾</div>
+      <div><strong>Pet Lovers Community:</strong> Share experiences and connect with other passionate animal lovers.</div>
+    </div>
+  </div>
+  <div>
+    <img src="./Pic/im1.png" class="provider-photo" alt="Imagen 1">
+  </div>
+</div>
+
+
+
+  <!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p><strong>Copyright &copy; Yari 2025</p>
+    <p><strong>Project:</strong> Pet Lovers Blog </p>
+    <p><strong>Email:</strong> petlovers@abcdefg.com</p>
+  </div>
+</footer>
+
+  <!-- Scripts -->
+   <script src="./script.js"></script>
+   <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
 </body>
 
 </html>
